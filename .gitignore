@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 密钥与本地配置 (切勿提交)
+backend/.env
+
+# 运行时数据
+backend/uploads/
+backend/data/
+
+# Node
+node_modules/
+frontend/dist/
+
+# 编辑器/系统
+.DS_Store
+*.log
